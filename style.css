@@ -641,7 +641,7 @@ footer h4 {
     .buttons-links {
         width: 200px;
     }
-    .hero__container_title {
+    .hero__container .hero__container_title {
         font-size: 3rem;
     }
     .about {
