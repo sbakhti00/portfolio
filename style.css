@@ -183,7 +183,7 @@ header {
     padding: 20px;
 }
 
-.hero__container span:nth-child(2) {
+.hero__container .hero__container_title {
     font-size: 4.5rem;
     text-transform: capitalize;
     margin-bottom: 2rem;
@@ -640,6 +640,9 @@ footer h4 {
     }
     .buttons-links {
         width: 200px;
+    }
+    .hero__container_title {
+        font-size: 3rem;
     }
     .about {
         flex-direction: column;
