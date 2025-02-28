@@ -669,5 +669,12 @@ footer h4 {
     .projects__project {
         width: 100%;
         margin-bottom: 2.5rem;
-    }    
+    }
+    .footer__container {
+        flex-direction: column;
+    }
+    .footer__container div {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
 }
