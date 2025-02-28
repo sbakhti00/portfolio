@@ -172,7 +172,7 @@ header {
 
 .hero__container {
     max-width: 100%;
-    width: 800%;
+    width: 800px;
     color: white;
     display: flex;
     flex-direction: column;
