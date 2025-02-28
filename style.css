@@ -114,7 +114,7 @@ header {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    height: 1.2rem;
+    height: 1.3rem;
     font-size: 1.2rem;
 }
 
@@ -594,6 +594,10 @@ footer h4 {
 }
 
 @media screen and (max-width:850px) {
+    .hero {
+        min-height: fit-content;
+        padding: 4rem 1rem;
+    }
     section:not(.hero) {
         padding: 4rem 1rem;
     }
@@ -639,7 +643,10 @@ footer h4 {
         border-bottom: 1px solid var(--tertiary-color);
     }
     .buttons-links {
-        width: 150px;
+        width: 155px;
+    }
+    .about .buttons-links {
+        width: 250px;
     }
     .hero__container .hero__container_title {
         font-size: 3rem;
