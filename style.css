@@ -18,6 +18,7 @@
     --sql-skill : 70%;
     --figma-skill : 70%;
     --vsc-skill : 80%;
+    --react-skill : 60%;
 }
 
 html {
@@ -50,6 +51,10 @@ p {
 
 h3 {
     font-size: 1.3rem;
+}
+
+section {
+    min-height: 100vh;
 }
 
 img:not(.icon) {
@@ -311,6 +316,10 @@ header {
     animation: progressBarPhp 1.5s forwards;
 }
 
+.react-bar.visible {
+    animation: progressBarReact 1.5s forwards;
+}
+
 .github-bar.visible {
     animation: progressBarGithub 1.5s forwards;
 }
@@ -359,6 +368,15 @@ header {
     }
     100% {
         width: var(--html-css-skill);
+    }
+}
+
+@keyframes progressBarReact {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: var(--react-skill);
     }
 }
 
